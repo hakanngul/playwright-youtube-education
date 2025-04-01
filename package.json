@@ -1,0 +1,22 @@
+{
+  "name": "playwright-youtube-education",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:safari": "playwright test --project=webkit",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.16"
+  }
+}
