@@ -30,12 +30,8 @@ test('Handle Form Submission', async ({ page }) => {
     await page.press(locatorString, 'Enter');
 
     const checkbox = await page.locator('.toggle');
-
     await checkbox.check();
-
     await expect(checkbox).toBeChecked();
-
-
     await page.waitForTimeout(1250);
 })
 
